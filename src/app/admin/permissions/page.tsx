@@ -70,7 +70,7 @@ const PERMISSION_META: Record<string, { label: string; icon: any; description: s
 
 const PERMISSION_CATEGORIES: Record<string, Permission[]> = {
   'Products': ['VIEW_PRODUCTS', 'MANAGE_PRODUCTS'],
-  'Cart': ['ADD_TO_CART', 'MANAGE_CART'],
+  'Cart': ['ADD_TO_CART'],
   'Orders': ['VIEW_ORDERS', 'MANAGE_ORDERS'],
   'Administration': ['MANAGE_USERS', 'MANAGE_PERMISSIONS'],
 };

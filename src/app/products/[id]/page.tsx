@@ -125,8 +125,8 @@ export default function ProductDetailPage({ params }: { params: { id: string } }
     rating: 4.5,
     reviews: 234,
     description: 'A breathable slim fit shirt crafted from 100% premium cotton. Perfect for everyday casual wear or smart casual outings. Features a classic collar, button-down placket, and a flattering fit that moves with you.',
-    sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'] as const,
-    outOfStock: ['XS'] as const,
+    sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
+    outOfStock: ['XS'],
   }), [params.id]);
 
   const canAddToCart = user && hasPermission(user.role, 'ADD_TO_CART');
